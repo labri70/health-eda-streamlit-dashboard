@@ -1,0 +1,27 @@
+# dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+.venv/
+.cache/
+강의_AI_Pair
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
