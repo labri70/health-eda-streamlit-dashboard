@@ -102,7 +102,7 @@ def apply_sidebar_style():
         """
         <style>
         [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h1 {
-            font-size: 1.75rem;
+            font-size: 2.25rem;
             font-weight: 800;
         }
         [data-testid="stSidebar"] [data-testid="stRadio"] > label {
