@@ -1,27 +1,50 @@
-# dev/build outputs
-.output
-.data
-.nuxt
-.nitro
-.cache
-dist
+# Python virtual envs
 .venv/
+venv/
+env/
+
+# Python cache/build outputs
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Streamlit/local runtime files
+.streamlit/secrets.toml
+.streamlit/*.secrets.toml
 .cache/
-강의_AI_Pair
+.data/
+.output/
 
 # Node dependencies
-node_modules
+node_modules/
 
 # Logs
-logs
+logs/
 *.log
 
 # Misc
 .DS_Store
+Thumbs.db
 .fleet
 .idea
+.vscode/
+.ipynb_checkpoints/
 
 # Local env files
 .env
 .env.*
 !.env.example
+
+# Local database/output artifacts
+*.db
+*.sqlite
+*.sqlite3
+outputs/
+artifacts/
+reports/
